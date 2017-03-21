@@ -1,7 +1,9 @@
-package com.music;
+package com.music.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.music.R;
 
 public class MainActivity extends AppCompatActivity {
 
