@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_main"
+<!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/activity_main"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#9c9a9a">-->
+    <!--&lt;!&ndash;<com.view.view.QqHealthyView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="700px"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_centerInParent="true"/>&ndash;&gt;-->
+
+    <!---->
+    <!---->
+<!--</RelativeLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9c9a9a">
-    <com.view.view.QqHealthyView
-        android:layout_width="700px"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"/>
-    
-</RelativeLayout>
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.AdMasterSdkActivity" >
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="sendClick"
+        android:text="@string/admaster_click" />
+
+    <Button
+        android:id="@+id/btn_expose"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="sendExpose"
+        android:text="@string/admaster_expose" />
+
+</LinearLayout>
