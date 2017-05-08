@@ -1,4 +1,4 @@
-package com.view.activity;
+package com.materDemo.library.activity;
 
 import com.materDemo.library.activity.base.BaseActivity;
 
@@ -6,5 +6,5 @@ import com.materDemo.library.activity.base.BaseActivity;
  * Created by hc on 2017/4/18.
  */
 
-public class SettingActivity extends BaseActivity {
+public class WebViewActivity extends BaseActivity {
 }

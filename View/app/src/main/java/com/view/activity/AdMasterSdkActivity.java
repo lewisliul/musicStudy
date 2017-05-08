@@ -1,15 +1,11 @@
 package com.view.activity;
 
-import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.admaster.sdk.api.AdmasterSdk;
-import com.materDemo.activity.base.BaseActivity;
+import com.materDemo.library.activity.base.BaseActivity;
 import com.view.R;
 
 public class AdMasterSdkActivity extends BaseActivity {

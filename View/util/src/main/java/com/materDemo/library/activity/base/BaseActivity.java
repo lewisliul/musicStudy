@@ -1,4 +1,4 @@
-package com.materDemo.activity.base;
+package com.materDemo.library.activity.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

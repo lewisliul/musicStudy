@@ -5,7 +5,7 @@ import android.app.Application;
 import com.materDemo.skinloader.load.SkinManager;
 
 /**
- * Created by hc on 2017/4/18.
+ * 基类application
  */
 
 public class SkinBaseApplication extends Application {
