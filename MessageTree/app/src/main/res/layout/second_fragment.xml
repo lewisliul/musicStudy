@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/comment_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/button_bg_color">
+        <Button
+            android:id="@+id/comment_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:text="@string/comment_title"
+            android:background="@null"
+            android:visibility="visible" />
+        <TextView
+            android:id="@+id/comment_badge_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/comment_button"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/badge_count_bg"
+            android:gravity="center"
+            android:text="99+"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/comment_badge_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/comment_button"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:src="@drawable/badge_dot"
+            android:visibility="invisible" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/liked_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment_button_container"
+        android:layout_marginTop="10dp"
+        android:background="@color/button_bg_color">
+        <Button
+            android:id="@+id/liked_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:text="@string/liked_title"
+            android:background="@null"
+            android:visibility="visible" />
+        <TextView
+            android:id="@+id/liked_badge_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/liked_button"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/badge_count_bg"
+            android:gravity="center"
+            android:text="99+"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/liked_badge_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/liked_button"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:src="@drawable/badge_dot"
+            android:visibility="invisible" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/sysmsg_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liked_button_container"
+        android:layout_marginTop="10dp"
+        android:background="@color/button_bg_color">
+        <Button
+            android:id="@+id/sysmsg_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:text="@string/sysmsg_title"
+            android:background="@null"
+            android:visibility="visible" />
+        <TextView
+            android:id="@+id/sysmsg_badge_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/sysmsg_button"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/badge_count_bg"
+            android:gravity="center"
+            android:text="99+"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/sysmsg_badge_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/sysmsg_button"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:src="@drawable/badge_dot"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -12,7 +12,7 @@ import com.materDemo.skinloader.listener.ISkinUpdate;
 import java.util.List;
 
 /**
- * Created by hc on 2017/4/18.
+ * 需要实现换肤功能的Activity就需要继承于这个Activity
  */
 
 public class SkinBaseActivity extends AppCompatActivity implements ISkinUpdate, IDynamicNewView {
